@@ -20,6 +20,10 @@ body{
     display: none;
 }
 
+.active{
+    display: block;
+}
+
 .main-nav li{
     text-align: center; 
     margin: 15px auto; 
