@@ -17,10 +17,34 @@ body{
 
 .main-nav{
     list-style-type: none;
+    display: none;
+}
+
+.main-nav li{
+    text-align: center; 
+    margin: 15px auto; 
 }
 
 .nav-links, 
 .logo{
     text-decoration: none; 
     color: rgba(255, 255, 255, 0.7);
+}
+
+.logo{
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*Toggle Button*/
+
+.navbar-toggle{
+    position: absolute;
+    top: 10px; 
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
 }
